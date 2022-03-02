@@ -1,3 +1,5 @@
+#!/bin/sh
+cat <<-EOF > /root/zfile/WEB-INF/classes/application.yml
 zfile:
   debug: false
   directLinkPrefix: directlink
@@ -31,7 +33,7 @@ zfile:
     scope: offline_access User.Read Files.ReadWrite.All
 
 server:
-  port: 8080
+  port: ${PORT}
   servlet:
     context-path: ''
   tomcat:
@@ -56,9 +58,9 @@ spring:
 
 #     MySQL 配置
       driver-class-name: com.mysql.jdbc.Driver
-      url: jdbc
-      username: username
-      password: passwd
+      url: ${JDBC}
+      username: ${USERNAME}
+      password: ${PASSWD}
   jackson:
     date-format: yyyy-MM-dd HH:mm
     time-zone: GMT+8
@@ -81,3 +83,6 @@ spring:
       mode: always
       data-locations: classpath*:db/data.sql
       encoding: utf-8
+
+EOF
+~/zfile/bin/start.sh
