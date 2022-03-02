@@ -85,4 +85,4 @@ spring:
       encoding: utf-8
 
 EOF
-~/zfile/bin/start.sh
+/root/zfile/bin/start.sh
