@@ -1,24 +1,24 @@
 {
-  "name": "cloudreve",
-  "description": "my cloudreve",
-  "keywords": [
-    "cloudreve"
-  ],
-  "env": {
-    "JDBC": {
-      "description": "MYSQL jdbc",
-      "value": "MyEnv value"
-    },
-    "USER": {
-      "description": "MYSQL USER",
-      "value": "MyEnv value"
-    },
-    "PASSWD": {
-      "description": "MYSQL PASSWD",
-      "value": "MyEnv value"
+    "name": "zfile",
+    "description": "my zfile",
+    "keywords": [
+        "zfile"
+    ],
+    "env": {
+        "JDBC": {
+            "description": "MYSQL jdbc",
+            "value": "MyEnv value"
+        },
+        "USER": {
+            "description": "MYSQL USER",
+            "value": "MyEnv value"
+        },
+        "PASSWD": {
+            "description": "MYSQL PASSWD",
+            "value": "MyEnv value"
+        }
     },
     "website": "https://blog.toame.tk/",
     "repository": "https://github.com/ToSeeAll/cloud",
     "stack": "container"
-  }
 }
