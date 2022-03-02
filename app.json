@@ -1,0 +1,14 @@
+{
+	"name": "cloudreve",
+	"description": "my cloudreve",
+	"keywords": ["cloudreve"],
+	"env": {
+		"MyEnv": {
+			"description": "MyEnv description",
+			"value": "MyEnv value"
+		}
+	},
+	"website": "https://blog.toame.tk/",
+	"repository": "https://github.com/ToSeeAll/cloud",
+	"stack": "container"
+}
