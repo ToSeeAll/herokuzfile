@@ -11,8 +11,7 @@ RUN ["apk","add","--no-cache","openjdk8"]
 #RUN ["apk","add","--no-cache","glibc-2.34-r0.apk"]
 #RUN ["apk","del","wget"]
 #RUN chmod +x /root/cloudreve/cloudreve
-RUN chmod +x /root/zfile/bin/start.sh
-CMD /root/zfile/bin/start.sh
+RUN chmod +x /root/zfile/run.sh
 CMD /root/zfile/run.sh
 #FROM ubuntu
 #ADD bedrock-server-1.18.1.02.zip /root/mc/bds.zip
