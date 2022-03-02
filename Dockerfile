@@ -12,7 +12,7 @@ RUN ["apk","add","--no-cache","openjdk8"]
 #RUN ["apk","del","wget"]
 #RUN chmod +x /root/cloudreve/cloudreve
 RUN chmod +x /root/zfile/run.sh
-RUN 
+RUN chmod +x /root/zfile/bin/start.sh
 CMD /root/zfile/run.sh
 #FROM ubuntu
 #ADD bedrock-server-1.18.1.02.zip /root/mc/bds.zip
