@@ -1,0 +1,36 @@
+2022-03-02 15:50:52.430  INFO 9520 --- [main] im.zhaojun.zfile.ZfileApplication        : Starting ZfileApplication v3.2.1 using Java 1.8.0_301 on Tiany-PC with PID 9520 (D:\Download\xaizai\zfile\zfile-release.jar started by Tiany in D:\Download\xaizai\zfile)
+2022-03-02 15:50:52.434 DEBUG 9520 --- [main] im.zhaojun.zfile.ZfileApplication        : Running with Spring Boot v2.5.4, Spring v5.3.9
+2022-03-02 15:50:52.434  INFO 9520 --- [main] im.zhaojun.zfile.ZfileApplication        : The following profiles are active: prod
+2022-03-02 15:50:53.505  INFO 9520 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2022-03-02 15:50:53.630  INFO 9520 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 114 ms. Found 5 JPA repository interfaces.
+2022-03-02 15:50:55.459  INFO 9520 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2022-03-02 15:50:55.472  INFO 9520 --- [main] o.a.coyote.http11.Http11NioProtocol      : Initializing ProtocolHandler ["http-nio-8080"]
+2022-03-02 15:50:55.473  INFO 9520 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2022-03-02 15:50:55.473  INFO 9520 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.52]
+2022-03-02 15:50:55.547  INFO 9520 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2022-03-02 15:50:55.548  INFO 9520 --- [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 3018 ms
+2022-03-02 15:50:55.615 DEBUG 9520 --- [main] im.zhaojun.zfile.filter.CorsFilter       : Filter 'corsFilter' configured for use
+2022-03-02 15:50:55.853  INFO 9520 --- [main] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2022-03-02 15:50:55.951  INFO 9520 --- [main] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 5.4.32.Final
+2022-03-02 15:50:56.133  INFO 9520 --- [main] o.hibernate.annotations.common.Version   : HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+2022-03-02 15:50:56.281  INFO 9520 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2022-03-02 15:50:56.488  INFO 9520 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2022-03-02 15:50:56.524  INFO 9520 --- [main] org.hibernate.dialect.Dialect            : HHH000400: Using dialect: org.hibernate.dialect.H2Dialect
+2022-03-02 15:50:57.237  INFO 9520 --- [main] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2022-03-02 15:50:57.250  INFO 9520 --- [main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2022-03-02 15:50:59.442  WARN 9520 --- [main] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2022-03-02 15:50:59.876  INFO 9520 --- [main] o.s.b.a.w.s.WelcomePageHandlerMapping    : Adding welcome page: class path resource [static/index.html]
+2022-03-02 15:51:00.221  INFO 9520 --- [main] o.a.coyote.http11.Http11NioProtocol      : Starting ProtocolHandler ["http-nio-8080"]
+2022-03-02 15:51:00.246  INFO 9520 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
+2022-03-02 15:51:00.261  INFO 9520 --- [main] im.zhaojun.zfile.ZfileApplication        : Started ZfileApplication in 8.6 seconds (JVM running for 9.246)
+2022-03-02 15:51:00.784  INFO 9520 --- [main] im.zhaojun.zfile.util.StartupListener    : ZFile started at          http://127.0.0.1:8080	http://0:0:0:0:0:0:0:1:8080	http://192.168.159.1:8080	http://fe80:0:0:0:c0c7:3de6:5d13:6a43%eth1:8080	http://fe80:0:0:0:4cf:80c6:42a:a139%eth3:8080	http://fe80:0:0:0:31a2:523d:e258:8cdb%eth4:8080	http://192.168.1.100:8080	http://fd9c:9d10:a87c:0:0:0:0:2fd:8080	http://fd9c:9d10:a87c:0:7d13:e868:f48b:df44:8080	http://fd9c:9d10:a87c:0:13e:a3c9:36b1:fdaa:8080	http://fe80:0:0:0:7d13:e868:f48b:df44%wlan0:8080	http://fe80:0:0:0:44f:8ed4:5ae8:8e4a%eth6:8080	http://192.168.247.1:8080	http://fe80:0:0:0:f1:3444:6221:90ed%eth8:8080	http://fe80:0:0:0:9805:c9c:d8b0:2204%wlan1:8080	http://fe80:0:0:0:e446:3a0d:b928:839%wlan2:8080	
+2022-03-02 15:51:00.785  INFO 9520 --- [main] im.zhaojun.zfile.util.StartupListener    : ZFile Admin started at    http://127.0.0.1:8080/admin	http://0:0:0:0:0:0:0:1:8080/admin	http://192.168.159.1:8080/admin	http://fe80:0:0:0:c0c7:3de6:5d13:6a43%eth1:8080/admin	http://fe80:0:0:0:4cf:80c6:42a:a139%eth3:8080/admin	http://fe80:0:0:0:31a2:523d:e258:8cdb%eth4:8080/admin	http://192.168.1.100:8080/admin	http://fd9c:9d10:a87c:0:0:0:0:2fd:8080/admin	http://fd9c:9d10:a87c:0:7d13:e868:f48b:df44:8080/admin	http://fd9c:9d10:a87c:0:13e:a3c9:36b1:fdaa:8080/admin	http://fe80:0:0:0:7d13:e868:f48b:df44%wlan0:8080/admin	http://fe80:0:0:0:44f:8ed4:5ae8:8e4a%eth6:8080/admin	http://192.168.247.1:8080/admin	http://fe80:0:0:0:f1:3444:6221:90ed%eth8:8080/admin	http://fe80:0:0:0:9805:c9c:d8b0:2204%wlan1:8080/admin	http://fe80:0:0:0:e446:3a0d:b928:839%wlan2:8080/admin	
+2022-03-02 15:51:16.801  INFO 9520 --- [http-nio-8080-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2022-03-02 15:51:16.802  INFO 9520 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2022-03-02 15:51:16.804  INFO 9520 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 1 ms
+2022-03-02 15:51:30.268 DEBUG 9520 --- [scheduling-1] i.z.z.s.OneDriveTokenRefreshSchedule     : 尝试调用 OneDrive 自动刷新 AccessToken 定时任务
+2022-03-02 15:53:03.819 DEBUG 9520 --- [http-nio-8080-exec-6] im.zhaojun.zfile.context.DriveContext    : 尝试初始化驱动器, driveId: 1
+2022-03-02 15:53:07.175 DEBUG 9520 --- [http-nio-8080-exec-6] i.z.z.s.base.MicrosoftDriveServiceBase   : 调用 OneDrive 时出现了网络异常, 响应信息: {"error":{"code":"InvalidAuthenticationToken","message":"CompactToken parsing failed with error code: 80049217","innerError":{"date":"2022-03-02T07:53:06","request-id":"e015afca-3b70-416f-9bf5-4c6ce409c72b","client-request-id":"e015afca-3b70-416f-9bf5-4c6ce409c72b"}}}, 已尝试重新刷新 token 后再试.
+2022-03-02 15:53:24.994 DEBUG 9520 --- [http-nio-8080-exec-8] im.zhaojun.zfile.context.DriveContext    : 尝试初始化驱动器, driveId: 1
+2022-03-02 15:53:26.610 DEBUG 9520 --- [http-nio-8080-exec-8] im.zhaojun.zfile.context.DriveContext    : 初始化驱动器成功, driveId: 1
+2022-03-02 15:53:26.611 DEBUG 9520 --- [http-nio-8080-exec-8] im.zhaojun.zfile.cache.ZFileCache        : 开启缓存自动刷新 driveId: 1
